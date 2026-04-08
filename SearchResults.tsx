@@ -1,12 +1,12 @@
 
 import React, { useEffect, useState, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
-import { PRODUCTS } from '../constants';
-import ProductCard from '../components/ProductCard';
-import BrandLogo from '../components/BrandLogo';
+import { PRODUCTS } from './constants';
+import ProductCard from './ProductCard';
+import BrandLogo from './BrandLogo';
 import { SlidersHorizontal, SearchX, Search, ChevronDown, ChevronUp, Star, RotateCcw } from 'lucide-react';
-import { ProductSkeleton, FilterSkeleton } from '../components/Skeleton';
-import { CartItem } from '../types';
+import { ProductSkeleton, FilterSkeleton } from './Skeleton';
+import { CartItem } from './types';
 
 interface SearchResultsProps {
   wishlist: string[];

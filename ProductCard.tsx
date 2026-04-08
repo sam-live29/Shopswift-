@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Product, CartItem } from '../types';
+import { Product, CartItem } from './types';
 import { Star, Heart, ShoppingCart, Zap, AlertCircle, CheckCircle2, PackageX, ShieldCheck, Check, Loader2 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 

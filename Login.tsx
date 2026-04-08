@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { User } from '../types';
+import { User } from './types';
 import { Eye, EyeOff, Loader2, ShieldCheck, Lock } from 'lucide-react';
 
 interface LoginProps {

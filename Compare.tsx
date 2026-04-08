@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Product } from '../types';
+import { Product } from './types';
 import { Star, X, ShoppingCart, ArrowLeft } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 

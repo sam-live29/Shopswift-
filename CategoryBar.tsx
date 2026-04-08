@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CATEGORIES } from '../constants';
+import { CATEGORIES } from './constants';
 import { useNavigate } from 'react-router-dom';
 import { 
   Smartphone, Shirt, Monitor, Home as HomeIcon, 

@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Product, CartItem } from '../types';
-import { PRODUCTS } from '../constants';
-import ProductCard from '../components/ProductCard';
+import { Product, CartItem } from './types';
+import { PRODUCTS } from './constants';
+import ProductCard from './ProductCard';
 import { Heart, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

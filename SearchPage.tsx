@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, ArrowLeft, TrendingUp, X, Clock, Mic, Sparkles, Zap, ChevronRight, Star } from 'lucide-react';
-import { PRODUCTS } from '../constants';
+import { PRODUCTS } from './constants';
 
 interface SuggestionItem {
   id: string;

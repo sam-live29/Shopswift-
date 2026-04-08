@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CATEGORIES, CATEGORY_METADATA } from '../constants';
-import BrandLogo from '../components/BrandLogo';
+import { CATEGORIES, CATEGORY_METADATA } from './constants';
+import BrandLogo from './BrandLogo';
 import { 
   ChevronRight, Sparkles, Zap, TrendingUp, Search, 
   ArrowLeft, Tag, Star, LayoutGrid, Store, CreditCard 
