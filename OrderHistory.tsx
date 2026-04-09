@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Order, CartItem } from '../types';
-import { PRODUCTS } from '../constants';
+import { Order, CartItem } from './types';
+import { PRODUCTS } from './constants';
 import { ChevronRight, Search, Filter, Info, Package, ChevronDown, ChevronUp, PackageX, Truck, CheckCircle2, MapPin, Heart, ShoppingBag, Sparkles } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 

@@ -6,8 +6,8 @@ import {
   Store, Bell, Ticket, Gift, Download, PhoneCall, ChevronDown, MoreVertical
 } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
-import { User } from '../types';
-import { PRODUCTS, CATEGORIES } from '../constants';
+import { User } from './types';
+import { PRODUCTS, CATEGORIES } from './constants';
 
 interface SuggestionItem {
   id: string;

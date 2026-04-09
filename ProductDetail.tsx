@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { PRODUCTS, CATEGORIES } from '../constants';
+import { PRODUCTS, CATEGORIES } from './constants';
 import { Star, Shield, RefreshCw, ShoppingCart, Zap, Heart, Share2, Info, User as UserIcon, CheckCircle, ArrowRight, X, ShieldCheck, ChevronRight, Home } from 'lucide-react';
-import { CartItem, Review, Product } from '../types';
+import { CartItem, Review, Product } from './types';
 
 interface ProductDetailProps {
   onAddToCart: (item: CartItem) => void;

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { Home, User, ShoppingCart, X, ChevronRight, Sparkles } from 'lucide-react';
-import { CATEGORIES } from '../constants';
+import { CATEGORIES } from './constants';
 
 interface MobileNavProps {
   cartCount: number;

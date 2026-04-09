@@ -5,7 +5,7 @@ import {
   ChevronRight, LogOut, Wallet, User as UserIcon, ShieldCheck, 
   Bell, Ticket, Gift, Headphones, MessageSquare, Star
 } from 'lucide-react';
-import { User } from '../types';
+import { User } from './types';
 
 interface AccountProps {
   user: User | null;

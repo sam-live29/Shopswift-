@@ -1,16 +1,16 @@
 
 import React, { useState, useEffect } from 'react';
-import CategoryBar from '../components/CategoryBar';
-import ProductCard from '../components/ProductCard';
-import BrandLogo from '../components/BrandLogo';
-import { PRODUCTS, CATEGORIES } from '../constants';
+import CategoryBar from './CategoryBar';
+import ProductCard from './ProductCard';
+import BrandLogo from './BrandLogo';
+import { PRODUCTS, CATEGORIES } from './constants';
 import { 
   ChevronRight, ChevronLeft, TrendingUp, ShieldCheck, 
   Truck, RefreshCw, Star, CreditCard, ShoppingBag, 
   LayoutGrid, Sparkles, Zap, ArrowUpRight 
 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import { CartItem, Product } from '../types';
+import { CartItem, Product } from './types';
 
 interface HomeProps {
   wishlist: string[];

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { CartItem, User, Order } from '../types';
+import { CartItem, User, Order } from './types';
 import { CheckCircle, CreditCard, Truck, ShieldCheck, ArrowLeft, Smartphone, Wallet, Landmark } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 

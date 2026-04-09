@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CartItem } from '../types';
+import { CartItem } from './types';
 import { Trash2, ShieldCheck, Info, ShoppingBag, Loader2 } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 
